@@ -1,11 +1,7 @@
-import java.util.*;
+class CalendarBookingSystem {
+    List<Booking> bookings;
 
-class Booking {
-    int start;
-    int end;
-
-    public Booking(int start, int end) {
-        this.start = start;
-        this.end = end;
+    public CalendarBookingSystem() {
+        this.bookings = new ArrayList<>();
     }
 }
